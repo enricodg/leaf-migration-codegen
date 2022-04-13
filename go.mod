@@ -3,7 +3,7 @@ module github.com/enricodg/leaf-migration-codegen
 go 1.18
 
 require (
-	github.com/paulusrobin/leaf-utilities/leafMigration v0.0.0-20220412163909-39deddfb3796
+	github.com/paulusrobin/leaf-utilities/leafMigration v0.0.0-20220413034912-5e197528c618
 	github.com/urfave/cli/v2 v2.4.0
 )
 

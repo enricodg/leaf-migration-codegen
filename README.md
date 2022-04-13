@@ -24,7 +24,7 @@ NAME:
    Leaf migration codegen - Supporting leaf framework to initialize migration project
 
 USAGE:
-   Leaf migration codegen command [command options] [arguments...]
+   leaf-migration-codegen command [command options] [arguments...]
 
 VERSION:
    v1.0.0
@@ -35,6 +35,7 @@ DESCRIPTION:
 COMMANDS:
    init      init --project <project URL>
    generate  generate --types <type> --name <name>
+   new       new --types <type> --name <name>
    help, h   Shows a list of commands or help for one command
 
 GLOBAL OPTIONS:

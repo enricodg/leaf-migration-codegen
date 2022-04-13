@@ -13,7 +13,7 @@ func main() {
 		Name:        "Leaf migration codegen",
 		Usage:       "Supporting leaf framework to initialize migration project",
 		Description: "CLI Leaf migration code generator",
-		UsageText:   "command [command options] [arguments...]",
+		UsageText:   "leaf-migration-codegen command [command options] [arguments...]",
 		Version:     "v1.0.0",
 		Commands: []*cli.Command{
 			command.Init(),
