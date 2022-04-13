@@ -18,7 +18,7 @@ const GoModTemplate = `module {{.ProjectName}}
 
 go 1.18
 
-require github.com/paulusrobin/leaf-utilities/leafMigration v0.0.0-20220413034912-5e197528c618 // indirect
+require github.com/paulusrobin/leaf-utilities/leafMigration v0.0.0-20220413134240-30abf1d47ee7 // indirect
 `
 
 const EnvExampleTemplate = `LOG_LEVEL=INFO
