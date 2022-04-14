@@ -54,7 +54,7 @@ $ leaf-migration-codegen init --project github.com/enricodg/leaf-migration-examp
 ### 2. Generate Files
 Currently it only supports service parameter generation. Service parameter is used to change service configuration on the fly without restarting the service.
 ```shell
-$ leaf-migration-codegen generate --types <mysql | postgre | mongo> --name <system_parameters>
+$ leaf-migration-codegen generate --types <mysql | postgre | mongo> --name <service_parameters>
 ```
 
 ### 3. Generate Migration
