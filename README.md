@@ -6,7 +6,7 @@ This repository contains code generator for [leaf migration](https://github.com/
 1. Go 1.18
 
 ## Installation
-
+Simply download it from [here](https://github.com/enricodg/leaf-migration-codegen/releases/download/v1.0.0/leaf-migration-codegen) or do the following steps:
 1. Clone this repository
 ```shell
 $ git clone https://github.com/enricodg/leaf-migration-codegen
