@@ -18,7 +18,13 @@ const GoModTemplate = `module {{.ProjectName}}
 
 go 1.18
 
-require github.com/paulusrobin/leaf-utilities/leafMigration v0.0.0-20220413134240-30abf1d47ee7 // indirect
+require (
+	github.com/paulusrobin/leaf-utilities/database/nosql/nosql v0.0.0-20220420081700-6d04b27d3e05
+	github.com/paulusrobin/leaf-utilities/database/sql/sql v0.0.0-20220420081700-6d04b27d3e05
+	github.com/paulusrobin/leaf-utilities/leafMigration v0.0.0-20220420081700-6d04b27d3e05
+	github.com/paulusrobin/leaf-utilities/logger/logger v0.0.0-20220420081700-6d04b27d3e05
+	go.mongodb.org/mongo-driver v1.9.0
+)
 `
 
 const EnvExampleTemplate = `LOG_LEVEL=INFO
