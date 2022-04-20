@@ -6,7 +6,7 @@ This repository contains code generator for [leaf migration](https://github.com/
 1. Go 1.18
 
 ## Installation
-
+Simply download it from [here](https://github.com/enricodg/leaf-migration-codegen/releases/download/v1.0.0/leaf-migration-codegen) or do the following steps:
 1. Clone this repository
 ```shell
 $ git clone https://github.com/enricodg/leaf-migration-codegen
@@ -54,7 +54,7 @@ $ leaf-migration-codegen init --project github.com/enricodg/leaf-migration-examp
 ### 2. Generate Files
 Currently it only supports service parameter generation. Service parameter is used to change service configuration on the fly without restarting the service.
 ```shell
-$ leaf-migration-codegen generate --types <mysql | postgre | mongo> --name <system_parameters>
+$ leaf-migration-codegen generate --types <mysql | postgre | mongo> --name <service_parameters>
 ```
 
 ### 3. Generate Migration
